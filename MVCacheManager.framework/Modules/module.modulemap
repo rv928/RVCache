@@ -1,0 +1,11 @@
+framework module MVCacheManager {
+  umbrella header "MVCacheManager.h"
+
+  export *
+  module * { export * }
+}
+
+module MVCacheManager.Swift {
+    header "MVCacheManager-Swift.h"
+    requires objc
+}
