@@ -1,0 +1,6 @@
+framework module Pods_MVRCacheTests {
+  umbrella header "Pods-MVRCacheTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
